@@ -27,15 +27,26 @@ Streamlit
 Joblib
 
 📂 Project Files
+
 File	Description
+
 data_cleaning.ipynb	Cleans raw dataset (handles missing values, formats, duplicates).
+
 preprocess_and_encode.ipynb	Encodes city & cuisine features using OneHotEncoder.
+
 eda.ipynb	Visual data analysis (top cuisines, cost trends, rating distribution).
+
 recommendation.py	Core cosine similarity logic for generating recommendations.
+
 app.py	Streamlit web app with UI for user interaction and result display.
+
 cleaned_data.csv	Cleaned restaurant dataset.
+
 encoded_data.csv	Encoded dataset for model input.
+
 encoder.pkl	Saved encoder for transforming new inputs.
+
+
 💻 How It Works
 
 User selects city, cuisine, minimum rating, and approximate cost.
